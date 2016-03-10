@@ -1,0 +1,13 @@
+.book-header-btn {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+article{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.book-header ul{
+    padding:0;
+    margin:0;
+}

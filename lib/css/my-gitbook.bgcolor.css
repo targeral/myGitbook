@@ -1,0 +1,33 @@
+.my-gitbook-summary-night {
+    background: #252737!important;
+    color: #bcc1d2!important;
+}
+.my-gitbook-summary-night a{
+    color: #f4f4f5!important;
+    background: #252737!important;
+    font-weight: 600!important;
+}
+
+.my-gitbook-summary-night li > a {
+    color: #c1c6d7!important;
+    background: transparent!important;
+    font-weight: 600!important;
+}
+.my-gitbook-summary-night li > a:hover{
+    color: #f4f4f5!important;
+    background: #252737!important;
+    font-weight: 600!important;
+}
+
+.my-gitbook-body-night{
+    color: #bdcadb!important;
+    background: #1c1f2b!important;
+}
+
+.my-gitbook-body-night a{
+    color: #3eb1d0!important;
+}
+
+.my-gitbook-body-night a:hover{
+    text-decoration: underline!important;
+}

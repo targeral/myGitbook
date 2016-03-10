@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myGitbook Demo</title>
+    <link rel="stylesheet" href="../bin/gitbook.min.css">
+</head>
+<body>
+    <div id="gitbook" class="book"></div>
+    <script src="../bin/util.js"></script>
+    <script src="../bin/markdown.js"></script>
+    <script src="../bin/gitbook.min.js"></script>
+    <script>
+        Book.Config({
+            BookName  : "How to use myGitbook",
+            HomePage  : "index.md",
+            BookTitle : "如何使用myGitbook",
+            BookFile  : "/article/",
+            Content   : {
+                1 : {
+                    title : "下载",
+                    src : "download.md"
+                },
+                2 : {
+                    title : "安装",
+                    src : "install.md"
+                }
+            }
+        });
+        Book.render();
+    </script>
+</body>
+</html>
